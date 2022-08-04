@@ -1,0 +1,219 @@
+.header {
+  background-image: linear-gradient(rgba(226, 82, 113, 0.5), rgba(255, 102, 0, 0.925)), url('./images/bg1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  height: 400px;
+  margin-bottom: 60px;
+}
+
+.header-button {
+  background: #b6258a;
+  border-color: #b6258a;
+  border-radius: 25px;
+  color: white;
+}
+
+.slider {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.slider-heading {
+  color: #b6258a;
+  font-size: 30px;
+}
+
+.slider-text {
+  color: grey;
+}
+
+.slider-control {
+  display: flex;
+  justify-content: center;
+}
+
+.slider-control hr {
+  width: 70px;
+  border: 2px solid;
+}
+
+.active-slide {
+  color: #ff00b3;
+}
+
+.about {
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+.about-text {
+  color: rgb(255, 165, 0);
+}
+
+.about-paragraph {
+  color: gray;
+}
+
+.about-button {
+  background-color: rgb(255, 165, 0);
+  border-color: rgb(255, 165, 0);
+  color: white;
+}
+
+.about-pic {
+  width: 100%;
+  height: 380px;
+}
+
+.services {
+  background-color: rgb(240, 240, 240);
+  padding: 70px 0px 70px 0px;
+}
+
+.icon {
+  color: orange
+}
+
+.icon-line {
+  border: 1px solid;
+  width: 80px;
+  margin: auto;
+}
+
+.service-description {
+  color: gray;
+}
+
+.service-block {
+  justify-content: center;
+  text-align: center;
+}
+
+.service {
+  background-color: white;
+}
+
+.recent-work {
+  padding: 70px 0px 70px 0px;
+}
+
+.seasons {
+  justify-content: center;
+}
+
+.all-seasons {
+  background-color: #b6258a;
+  border-radius: 25px;
+}
+
+.gallery-pic {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery {
+  margin-bottom: 70px;
+
+}
+
+.chat {
+  color: #b6258a;
+}
+
+.dev-reviews {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.9), rgb(0, 0, 0, 0.9)), url('./images/bg1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.dev-name {
+
+  color: orange;
+}
+
+.review {
+  color: white;
+}
+
+.dev-designation {
+  color: white;
+}
+
+.circle-icon-purple {
+  color: #b6258a;
+  margin-right: 12px;
+}
+
+.circle-icon-1 {
+  color: white;
+}
+
+.circle-icon-2 {
+  margin-bottom: 80px;
+  color: white;
+  margin-left: 12px;
+}
+
+.contact-icon {
+  color: #b6258a;
+}
+
+.contact-info {
+  color: grey;
+  margin-left: 40px;
+}
+
+.contact-title {
+  margin-left: 55px;
+}
+
+.name-input,
+.email-input {
+  width: 100%;
+}
+
+.name-input,
+.email-input,
+.message-input,
+.subject-input {
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.contact-details {
+  margin-bottom: 80px;
+}
+
+.message-btn {
+  border-radius: 25px;
+  color: white;
+  background-color: #b6258a;
+  border-color: #b6258a;
+}
+
+.message-btn-div {
+  text-align: center;
+}
+
+.input-section {
+  justify-content: center;
+}
+
+.footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.contact-details {
+  justify-content: center;
+}
+
+.navbar-elegant {
+  margin-bottom: 50px;
+}
