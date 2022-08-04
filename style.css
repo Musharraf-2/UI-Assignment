@@ -9,7 +9,7 @@
 
 .header-button {
   background: #b6258a;
-  border-color: #b6258a;
+  border: none;
   border-radius: 25px;
   color: white;
   margin-bottom: 100px;
@@ -58,7 +58,7 @@
 
 .about-button {
   background-color: rgb(255, 165, 0);
-  border-color: rgb(255, 165, 0);
+  border: none;
   color: white;
 }
 
@@ -172,7 +172,6 @@
   margin-left: 55px;
 }
 
-.name-input,
 .email-input {
   width: 100%;
 }
@@ -193,7 +192,7 @@
   border-radius: 25px;
   color: white;
   background-color: #b6258a;
-  border-color: #b6258a;
+  border: none
 }
 
 .message-btn-div {
@@ -216,4 +215,20 @@
 
 .navbar-elegant {
   margin-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+  .email-input {
+    margin-top: 40px;
+  }
+
+  .name-input {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .name-input {
+    width: 90%;
+  }
 }
