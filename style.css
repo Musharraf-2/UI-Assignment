@@ -232,3 +232,11 @@
     width: 90%;
   }
 }
+
+a.season-name-all {
+  color: white;
+}
+
+a.season-name {
+  color: gray;
+}
